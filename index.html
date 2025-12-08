@@ -324,17 +324,48 @@
                                     <h2 class="text-4xl font-bold leading-tight">Scale your brand with global infrastructure.</h2>
                                 </div>
                                 
-                                <div class="space-y-6">
+                                <div class="space-y-6 hidden md:block">
                                     <div class="flex items-start gap-4">
                                         <div class="p-2 bg-white/10 rounded-lg backdrop-blur-sm">
                                             <i data-lucide="zap" class="w-6 h-6 text-yellow-400"></i>
                                         </div>
-                                        
+                                        <div>
+                                            <h4 class="font-bold text-lg">Fast Onboarding</h4>
+                                            <p class="text-slate-300 text-sm">Get your account set up and shipping in less than 48 hours.</p>
+                                        </div>
                                     </div>
                                     <div class="flex items-start gap-4">
                                         <div class="p-2 bg-white/10 rounded-lg backdrop-blur-sm">
                                             <i data-lucide="shield-check" class="w-6 h-6 text-green-400"></i>
                                         </div>
+                                        <div>
+                                            <h4 class="font-bold text-lg">Guaranteed Rates</h4>
+                                            <p class="text-slate-300 text-sm">Lock in your shipping costs with our transparent pricing model.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mobile-Only Features Container -->
+                        <div class="md:hidden bg-slate-800/50 px-6 pt-6 pb-10 border-y border-slate-700/50 backdrop-blur-sm">
+                            <div class="space-y-4">
+                                <div class="flex items-center gap-4">
+                                    <div class="p-2 bg-brand-900/50 rounded-lg">
+                                        <i data-lucide="zap" class="w-5 h-5 text-yellow-400"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-white text-base">Fast Onboarding</h4>
+                                        <p class="text-slate-400 text-sm">Shipping in < 48 hours.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <div class="p-2 bg-brand-900/50 rounded-lg">
+                                        <i data-lucide="shield-check" class="w-5 h-5 text-green-400"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-white text-base">Guaranteed Rates</h4>
+                                        <p class="text-slate-400 text-sm">Transparent pricing.</p>
                                     </div>
                                 </div>
                             </div>
@@ -513,7 +544,7 @@
                                     </div>
                                     <div>
                                         <div class="font-bold text-slate-900">WhatsApp</div>
-                                        <div class="text-slate-600">+1 +1 204 228 7912</div>
+                                        <div class="text-slate-600">+1 951 265 7728</div>
                                     </div>
                                 </div>
                                 <div class="flex items-center gap-4">
@@ -714,7 +745,7 @@
 *Additional Info:* ${info}`;
 
             const encodedMessage = encodeURIComponent(message);
-            const targetNumber = '+12042287912'; // Your number
+            const targetNumber = '19512657728'; // Your number
 
             // Open WhatsApp
             window.open(`https://wa.me/${targetNumber}?text=${encodedMessage}`, '_blank');
